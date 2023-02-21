@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Woofer 1",
+      "price": 4500,
+      "description":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+      "stock": 6,
+      "category": "SUB"
+    },
+    {
+      "id": 2,
+      "name": "Woofer 4",
+      "price": 2200,
+      "description":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+      "stock": 2,
+      "category": "HI"
+    },
+    {
+      "id": 3,
+      "name": "Woofer 2",
+      "price": 3500,
+      "description":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+      "stock": 10,
+      "category": "MID"
+    },
+    {
+      "id": 4,
+      "name": "Woofer 3",
+      "price": 4000,
+      "description":
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+      "stock": 6,
+      "category": "SUB"
+    }
+  ]
