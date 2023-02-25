@@ -5,7 +5,7 @@ const ItemList = ({woofers}) => {
   return (
     <>
     <div>
-        {woofers.map((woofer) =>(
+        {woofers?.map((woofer) =>(
             <Item
             key={woofer.id}
             id={woofer.id}

@@ -3,6 +3,7 @@ import ItemDetailContainer from "./components/ItemDetailContainer";
 import ItemListContainer from "./components/ItemListContainer";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Welcome from "./components/Welcome";
 
 const App = () => {
 
@@ -13,8 +14,8 @@ const App = () => {
     <NavBar />
 
     <Routes>
-      <Route exact path="/" element={<ItemListContainer greeting="W4 Store" />}/>
-      <Route exact path="/ItemDetailContainer" element={<ItemDetailContainer />}/>
+      <Route exact path="/" element={<Welcome/>}/>
+      <Route exact path="/ItemDetailContainer" element={<ItemListContainer />}/>
       <Route exact path="/categoria/:categoria" element={<ItemListContainer />} />
       <Route exact path="/item/:id" element={<ItemDetailContainer />} />
     </Routes>
