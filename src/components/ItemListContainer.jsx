@@ -1,17 +1,18 @@
 import React from 'react'
-import { useState, useEffect } from 'react';
 import ItemList from './ItemList';
 import Data from '../data.json';
 import { useParams } from 'react-router-dom';
 
 
 const ItemListContainer = () => {
-  const { id } = useParams();
-  const woofersFilter = Data.filter((Woofer) => Woofer.id === id);
+  const { category } = useParams();
+  
+  const woofersFilter = Data.filter((Woofer) => Woofer.category === category);
+
   return (
     <div>
       Productos W4
-      {<ItemList woofers={woofersFilter}/>}
+      {category ?<ItemList woofers={woofersFilter}/> : <ItemList woofers={Data}></ItemList>}
     </div>
   );
 }

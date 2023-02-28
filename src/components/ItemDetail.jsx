@@ -11,9 +11,15 @@ const ItemDetail = ({woofers}) => {
     {woofersFilter.map((woofer) =>(
         <div key={woofer.id}>
             <img src={wooferImage}/>
-            <Text>Descripcion: {woofer.description}</Text>
+            <text>Descripcion: {woofer.description}</text>
 
-        <div><ItemCount/></div>
+        <div><ItemCount
+           stock={woofer.stock}
+           id={woofer.id}
+           name={woofer.name}
+           price={woofer.price}
+            />
+        </div>
         </div>
     ))}
       

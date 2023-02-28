@@ -1,3 +1,4 @@
+import { Container } from '@chakra-ui/react';
 import React from 'react';
 import Item from './Item';
 
@@ -5,6 +6,7 @@ const ItemList = ({woofers}) => {
   return (
     <>
     <div>
+      <Container>
         {woofers?.map((woofer) =>(
             <Item
             key={woofer.id}
@@ -16,6 +18,7 @@ const ItemList = ({woofers}) => {
             category={woofer.category}
             />
         ))}
+      </Container>  
     </div>
       
     </>
