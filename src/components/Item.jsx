@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import wooferImage from '../assets/subWoofer.jpg';
 
-const Item = ({id, item, name, stock, category, price }) => {
+const Item = ({id,  name, stock, category, price }) => {
   return (
     <div>
     <div key={id}>
-        <img src={item.imagen}></img>
+        <img src={wooferImage}></img>
         <div>
             <h2>{name}</h2>
             <h3>{category}</h3>
